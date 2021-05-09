@@ -23,4 +23,12 @@
   "paths": {
     "contentPath": "content"
   }
+  "spam": {
+    "global_block": {
+      "freeRetries": 100000000
+    },
+    "user_login": {
+      "freeRetries": 100000000
+    }
+  }
 }
