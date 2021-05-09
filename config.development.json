@@ -22,7 +22,7 @@
   "process": "local",
   "paths": {
     "contentPath": "content"
-  }
+  },
   "spam": {
     "global_block": {
       "freeRetries": 100000000
