@@ -24,11 +24,40 @@
     "contentPath": "content"
   },
   "spam": {
-    "global_block": {
-      "freeRetries": 100000000
-    },
     "user_login": {
-      "freeRetries": 100000000
+        "minWait": 600000,
+        "maxWait": 604800000,
+        "freeRetries": 1000
+    },
+    "user_reset": {
+        "minWait": 3600000,
+        "maxWait": 3600000,
+        "lifetime": 3600,
+        "freeRetries": 1000
+    },
+    "global_reset": {
+        "minWait": 3600000,
+        "maxWait": 3600000,
+        "lifetime": 3600,
+        "freeRetries":1000
+    },
+    "global_block": {
+        "minWait": 3600000,
+        "maxWait": 3600000,
+        "lifetime": 3600,
+        "freeRetries":1000
+    },
+    "private_block": {
+        "minWait": 3600000,
+        "maxWait": 3600000,
+        "lifetime": 3600,
+        "freeRetries":1000
+    },
+    "content_api_key": {
+        "minWait": 3600000,
+        "maxWait": 86400000,
+        "lifetime": 3600,
+        "freeRetries": 1000
     }
   }
 }
